@@ -16,6 +16,8 @@ In the cd_account.py file, the Account class contains a create_cd_account functi
 > ## customer_banking.py
 In the customer_banking.py file, the create_savings_account and create_cd_account functions are imported to create a main function that prompts the user to enter the savings and CD account details, call the corresponding functions to calculate the interest earned and update the balances, and display the results.
 
+Error checking is in place incase the user inputs an incorrect data type, for example throwing an error when the user inputs a character when the input calls for an float or integer. 
+
 # Future Work
 Though this is a very rudimentary program illustrating the functionality and usefulness of creating and importing classes, this kind of banking system is far from being functional as it lacks security and user-entry data error handling. Future work could include integrating other kinds of investment systems and calculating returns. There should also be an option for the user to project returns when adding monthly or yearly to the account. Other functionality could be added like a debit system, that allows customers to move money between different accounts as well as withdrawing and depositing. 
 
